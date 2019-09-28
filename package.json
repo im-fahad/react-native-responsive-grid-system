@@ -13,6 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/im-fahad/react-native-responsive-grid-system.git"
   },
+  "keywords": [
+    "react-native",
+    "grid",
+    "layout",
+    "responsive-grid",
+    "responsive-grid-system",
+    "react-native-responsive-grid",
+    "react-native-responsive-grid-system",
+    "grid-system"
+  ],
   "author": "al_fahad",
   "license": "ISC",
   "bugs": {
