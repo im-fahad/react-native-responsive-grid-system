@@ -9,11 +9,17 @@ let {
 } = Dimensions.get("window");
 let colWidth = 100 / 12;
 
+let xs = width > 0 && width < 418;
+let sm = width > 417 && width < 768;
+let md = width > 767 && width < 1024;
+let lg = width > 1023;
+
 
 
 const styles = StyleSheet.create(
-    width > 0 && width < 420 ?
-    {
+
+    xs ? {
+
         row: {
             flexDirection:'row', 
             flexWrap:'wrap',
@@ -68,9 +74,9 @@ const styles = StyleSheet.create(
             paddingRight: 5,
         },
     }
-    :width > 421 && width < 768
-    ?
-    {
+
+    :sm ? {
+
         row: {
             flexDirection:'row',
             flexWrap:'wrap',
@@ -124,13 +130,11 @@ const styles = StyleSheet.create(
             width: (colWidth*12)+'%',
             paddingRight: 6,
         },
+    
     }
 
-    :width > 769 && width < 1024 
-    
-    ?
+    :md ? {
 
-    {
         row: {
             flexDirection:'row',
             flexWrap:'wrap',
@@ -186,9 +190,8 @@ const styles = StyleSheet.create(
         },
     }
 
-    :
-    
-    {
+    : {
+        
         row: {
             flexDirection:'row',
             flexWrap:'wrap',
@@ -243,6 +246,7 @@ const styles = StyleSheet.create(
             paddingRight: 8,
         },
     }
+
 
 )
 export default styles;
