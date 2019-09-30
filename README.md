@@ -31,17 +31,17 @@ import { Row, Col } from 'react-native-responsive-grid-system';
 </Row>
 ```
 
-## Components included:
-  - [Row](#row)
-  - [Col](#col)
-
-
 ### Grid
 <p align="center">
     <a href="#" target="_blank">
         <img src="./doc-images/all.png" width="200">
     </a>
 </p>
+
+## Components included:
+  - [Row](#row)
+  - [Col](#col)
+
 
 
 ## How it works
