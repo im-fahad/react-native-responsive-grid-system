@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/im-fahad/react-native-responsive-grid-system#readme",
   "dependencies": {
-    "react-native-responsive-grid-styles": "^1.0.0"
+    "react-native-responsive-grid-styles": "^1.0.1"
   }
 }
