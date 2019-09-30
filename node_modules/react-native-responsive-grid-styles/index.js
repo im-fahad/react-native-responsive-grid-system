@@ -72,8 +72,7 @@ const styles = StyleSheet.create(
     ?
     {
         row: {
-            flexDirection:'row', 
-            backgroundColor:'#fff',
+            flexDirection:'row',
             flexWrap:'wrap',
             marginRight: -6,
         },
@@ -133,8 +132,7 @@ const styles = StyleSheet.create(
 
     {
         row: {
-            flexDirection:'row', 
-            backgroundColor:'#fff',
+            flexDirection:'row',
             flexWrap:'wrap',
             marginRight: -7,
         },
@@ -192,8 +190,7 @@ const styles = StyleSheet.create(
     
     {
         row: {
-            flexDirection:'row', 
-            backgroundColor:'#fff',
+            flexDirection:'row',
             flexWrap:'wrap',
             marginRight:-8,
         },

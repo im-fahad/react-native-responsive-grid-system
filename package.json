@@ -1,6 +1,6 @@
 {
   "name": "react-native-responsive-grid-system",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "react-native-responsive-grid-system components",
   "main": "index.js",
   "directories": {
@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/im-fahad/react-native-responsive-grid-system#readme",
   "dependencies": {
-    "react-native-responsive-grid-styles": "^1.0.0"
+    "react-native-responsive-grid-styles": "^1.0.1"
   }
 }
