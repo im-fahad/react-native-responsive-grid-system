@@ -1,35 +1,41 @@
 {
-  "name": "react-native-responsive-grid-system",
-  "version": "1.0.3",
-  "description": "react-native-responsive-grid-system components",
-  "main": "index.js",
-  "directories": {
-    "example": "example"
-  },
-  "scripts": {
-    "test": "Thanks"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/im-fahad/react-native-responsive-grid-system.git"
-  },
-  "keywords": [
-    "react-native",
-    "grid",
-    "layout",
-    "responsive-grid",
-    "responsive-grid-system",
-    "react-native-responsive-grid",
-    "react-native-responsive-grid-system",
-    "grid-system"
-  ],
-  "author": "al_fahad",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/im-fahad/react-native-responsive-grid-system/issues"
-  },
-  "homepage": "https://github.com/im-fahad/react-native-responsive-grid-system#readme",
-  "dependencies": {
-    "react-native-responsive-grid-styles": "^1.0.2"
-  }
+	"name": "react-native-responsive-grid-system",
+	"version": "1.1",
+	"description": "react-native-responsive-grid-system components",
+	"main": "dist/index.js",
+	"directories": {
+		"example": "example"
+	},
+	"scripts": {
+		"build": "tsc"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/im-fahad/react-native-responsive-grid-system.git"
+	},
+	"keywords": [
+		"react-native",
+		"grid",
+		"layout",
+		"responsive-grid",
+		"responsive-grid-system",
+		"react-native-responsive-grid",
+		"react-native-responsive-grid-system",
+		"grid-system"
+	],
+	"author": "al_fahad",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/im-fahad/react-native-responsive-grid-system/issues"
+	},
+	"homepage": "https://github.com/im-fahad/react-native-responsive-grid-system#readme",
+	"dependencies": {
+		"react": "latest",
+		"react-native": "latest"
+	},
+	"devDependencies": {
+		"@types/react": "latest",
+		"@types/react-native": "latest",
+		"typescript": "latest"
+	}
 }
